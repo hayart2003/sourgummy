@@ -1,14 +1,13 @@
 @font-face {
-    src: url("./fonts/FormaDJRVariableNormal[opsz\,slnt\,wght]-Edu.woff2") format("woff2"),
-         url('./fonts/FormaDJRVariableNormal[opsz\,slnt\,wght]-Edu.woff') format("woff");
-        font-family: 'Forma';
+    src: url("fonts/SourGummy-VariableFont_wdth\,wght.woff2") format("woff2");
+        font-family: 'sourgummy';
         font-style: normal;
         font-weight: normal;
         }
     
     body{
     background-color: lightsteelblue;
-    font-family: 'Forma';
+    font-family: 'sourgummy', sans-serif;
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
@@ -55,9 +54,9 @@ h3{
 
 @keyframes weightChange {
     0%, 100%{
-        font-variation-settings: "opsz" 16, "wght" 200, "slnt" 0;
+        font-variation-settings: "wdth" 100, "wght" 100, "slnt" 0;
     }
-    50%{font-variation-settings: "opsz" 16, "wght" 900, "slnt" -13;
+    50%{font-variation-settings: "wdth" 125, "wght" 900, "slnt" -13;
     }
     
 }
