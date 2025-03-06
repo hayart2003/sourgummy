@@ -6,12 +6,13 @@
         }
     
     body{
-    background-color: lightsteelblue;
+        
+    background-color: #FFFEEF;
     font-family: 'sourgummy', sans-serif;
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
-    width: min(100% - 3rem, 80ch);
+    width: min(100% - 3rem, 90ch);
     margin-inline: auto;
 }
 /* how the page wrapper appears on desktop */
@@ -23,19 +24,19 @@ grid-gap: 25px;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas: 
-    "h v"
-    "a a";
+    "v h"
+    "a a"; 
 }
 
-.history {
+#history {
 grid-area: h;
 }
 
-.variations{
+#variations{
 grid-area: v;
 }
 
-.alphabet {
+#alphabet {
 grid-area: a;
 }
 }
@@ -44,7 +45,12 @@ footer{
     background-color: gray;
 }
 
-/* variable font animation */
+/* variable font styling */
+h2{
+    color: grey;
+    font-variation-settings: "wdth" 50, "wght" 900, "slnt" 0;
+}
+
 h3{
     font-weight:20; 
     text-align: center;
