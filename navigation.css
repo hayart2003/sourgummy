@@ -6,6 +6,9 @@
     margin: 0;
   }
   
+  h1{
+    color: #5A8D2C;
+  }
   header {
     /* where to set the color of the nav bar */
       background: #FFFEEF;

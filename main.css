@@ -1,15 +1,58 @@
-@font-face {
-    src: url("fonts/SourGummy-VariableFont_wdth\,wght.woff2") format("woff2");
-        font-family: 'sourgummy';
-        font-style: normal;
-        font-weight: normal;
-        }
-    
-    body{
-        
+
+
+h3, h4, h5 {
+    margin-top: 0; /* Remove top margin */
+    margin-bottom: 0.05rem; /* Adjust bottom margin as needed */
+    padding: 0; /* Remove padding */
+  }
+  
+  .color1 {
+    color: #2797B2;
+  }
+  
+  .color2 {
+    color: #C5414E;
+  }
+  
+  .color3 {
+    color: #C4771C;
+  }
+  
+  .color4 {
+    color: #D64379;
+  }
+  
+  .color5 {
+    color: #2797B2;
+  }
+  
+  .color6 {
+    color: #C4771C;
+  }
+  
+  .color7 {
+    color: #5A8D2C;
+  }
+  
+  .color8 {
+    color: #D64379;
+  }
+  
+  .color9 {
+    color: #C5414E;
+  }
+  
+  @font-face {
+    src: url("fonts/SourGummy-VariableFont_wdth,wght.woff2") format("woff2");
+    font-family: 'sourgummy';
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  body {
     background-color: #FFFEEF;
     font-family: 'sourgummy', sans-serif;
-}
+  }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
     width: min(100% - 3rem, 90ch);
@@ -24,7 +67,7 @@ grid-gap: 25px;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas: 
-    "v h"
+    "h h"
     "a a"; 
 }
 
@@ -47,17 +90,32 @@ footer{
 
 /* variable font styling */
 h2{
-    color: grey;
+    color: #D64379;
     font-variation-settings: "wdth" 50, "wght" 900, "slnt" 0;
 }
 
 h3{
-    font-weight:20; 
+    font-weight:5; 
     text-align: center;
     font-size: 5em;
     animation: weightChange 7s infinite;
 }
 
+h4{
+    font-weight:5; 
+    text-align: center;
+    font-size: 5em;
+    animation: weightChange 7s infinite;
+    
+}
+
+h5{
+    font-weight:5; 
+    text-align: center;
+    font-size: 5em;
+    animation: weightChange 7s infinite;
+    
+}
 @keyframes weightChange {
     0%, 100%{
         font-variation-settings: "wdth" 100, "wght" 100, "slnt" 0;
@@ -92,3 +150,17 @@ h3{
     font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
 }
 
+
+.text-with-background {
+    position: relative;
+    background: url('wormtransparent.svg') no-repeat center center;
+    background-size: cover; /* Adjust as needed */
+    padding: 1rem; /* Adjust padding as needed */
+}
+
+.text-with-background p {
+    position: relative;
+    z-index: 1; /* Ensure text is above the background */
+    background: rgba(255, 255, 255, 0.8); /* Optional: Add a semi-transparent background to make text more readable */
+    padding: 1rem; /* Optional: Add padding to the paragraph */
+}
