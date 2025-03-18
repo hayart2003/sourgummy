@@ -85,7 +85,7 @@ grid-area: a;
 }
 /* CSS for the footer */
 footer{
-    background-color: gray;
+    background-color:  #FFFEEF;
 }
 
 /* variable font styling */
@@ -139,28 +139,63 @@ h5{
         font-variation-settings 3s;
 }
 
-.variable-font:hover{
-    font-weight:500 ;
-    height:100vh;
+/* variable font that changes on hover */
+.variable-font {
+    font-weight: 1;
+    height: 100vh;
+    font-size: 10em;
+    display: grid;
+    place-content: center;
+    margin: 0;
+    text-align: center;
+    font-variation-settings: "wght" 40, "wdth" 0, "XXXX" 1;
+    transition: 
+        font-weight 500ms,
+        font-variation-settings 3s;
+}
+
+.variable-font:hover {
+    font-weight: 500;
+    height: 100vh;
     font-size: 7em;
-    display:grid;
+    display: grid;
     place-content: center;
     margin: 0;
     text-align: center;
     font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
 }
 
-
-.text-with-background {
-    position: relative;
-    background: url('wormtransparent.svg') no-repeat center center;
-    background-size: cover; /* Adjust as needed */
-    padding: 1rem; /* Adjust padding as needed */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #FFFEEF;
 }
 
-.text-with-background p {
-    position: relative;
-    z-index: 1; /* Ensure text is above the background */
-    background: rgba(255, 255, 255, 0.8); /* Optional: Add a semi-transparent background to make text more readable */
-    padding: 1rem; /* Optional: Add padding to the paragraph */
+.logo {
+    margin: 0;
+}
+
+.page-nav {
+    margin-left: auto; /* Pushes the nav to the right */
+}
+
+.page-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.page-nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-logo {
+  position: fixed;
+  bottom: -40px;
+  left: -40px;
 }
