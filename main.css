@@ -4,12 +4,11 @@ body{
 }
 
 
-  h2 h3 h4 h5 {
-    margin-top: 0; /* Remove top margin */
-    margin-bottom: 0.6rem; /* Adjust bottom margin as needed */
-    padding: 0; /* Remove padding */
-  }
-
+h2, h3, h4, h5 {
+  margin-top: 0; /* Remove top margin */
+  margin-bottom: 1.5rem; /* Adjust bottom margin as needed */
+  padding: 0; /* Remove padding */
+}
   
   
   .color1 {
@@ -93,7 +92,7 @@ margin-right: 30px;
 #alphabet {
   font-family: sourgummy;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1em;
   grid-area: a;
   margin: 0;
   padding: 0;
