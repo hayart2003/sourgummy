@@ -1,8 +1,17 @@
 
+body {
+  cursor: url(assets/correctscoop.png), auto; /* Ensure the path is correct */
+}
 
-h3, h4, h5 {
+h3 {
+    margin-top: .5; /* Remove top margin */
+    margin-bottom: 5rem; /* Adjust bottom margin as needed */
+    padding: 0; /* Remove padding */
+  }
+  
+  h2 h4 h5 {
     margin-top: 0; /* Remove top margin */
-    margin-bottom: 0.05rem; /* Adjust bottom margin as needed */
+    margin-bottom: 5rem; /* Adjust bottom margin as needed */
     padding: 0; /* Remove padding */
   }
   
@@ -12,6 +21,7 @@ h3, h4, h5 {
   
   .color2 {
     color: #C5414E;
+
   }
   
   .color3 {
@@ -31,8 +41,10 @@ h3, h4, h5 {
   }
   
   .color7 {
-    color: #5A8D2C;
+  color: #5A8D2C;
+  
   }
+  
   
   .color8 {
     color: #D64379;
@@ -63,25 +75,36 @@ h3, h4, h5 {
 @media only screen and (min-width:800px){
 .page-wrapper{
 display: grid;
-grid-gap: 25px;
+/* grid-gap: 25px; */
 grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas: 
-    "h h"
+    "h v"
     "a a"; 
 }
 
 #history {
 grid-area: h;
+
 }
 
 #variations{
 grid-area: v;
+margin-right: 20px;
 }
 
 #alphabet {
-grid-area: a;
+  font-family: sourgummy;
+  font-weight: bold;
+  font-size: 1.5em;
+  grid-area: a;
+  margin: 0;
+  padding: 0;
+  text-align: center-left;
+  margin-right: 15px;
+  color: #5A8D2C;
 }
+
 }
 /* CSS for the footer */
 footer{
@@ -196,6 +219,12 @@ h5{
 
 .footer-logo {
   position: fixed;
-  bottom: -40px;
-  left: -40px;
+  bottom: -70px;
+  right: -10px;
 }
+
+.var1 {
+  animation: var1 5s infinite;
+}
+  
+
