@@ -1,15 +1,18 @@
 
-
+body{
+  cursor: url(assets/newestscoop.png), auto; /* Ensure the path is correct */
+}
 
 h3 {
     margin-top: .5; /* Remove top margin */
-    margin-bottom: 5rem; /* Adjust bottom margin as needed */
+    margin-bottom: 0.5rem; /* Adjust bottom margin as needed */
     padding: 0; /* Remove padding */
+    animation: weightvariations 3s infinite;
   }
   
   h2 h4 h5 {
     margin-top: 0; /* Remove top margin */
-    margin-bottom: 5rem; /* Adjust bottom margin as needed */
+    margin-bottom: 0.5rem; /* Adjust bottom margin as needed */
     padding: 0; /* Remove padding */
   }
   
@@ -139,11 +142,52 @@ h5{
 }
 @keyframes weightChange {
     0%, 100%{
-        font-variation-settings: "wdth" 100, "wght" 100, "slnt" 0;
+        font-variation-settings: "wdth" 100, "wght" 100, "ital" 0;
     }
-    50%{font-variation-settings: "wdth" 125, "wght" 900, "slnt" -13;
+    50%{font-variation-settings: "wdth" 125, "wght" 900, "ital" 0;
     }
-    
+    /* animations for the variation sections */
+}
+
+.weight{
+  animation: weightvariations 5s infinite;
+}
+@keyframes weightvariations {
+  0%, 100%{
+      font-variation-settings: "wdth" 0, "wght" 100, "ital" 0;
+  }
+  50%{font-variation-settings: "wdth" 0, "wght" 900, "ital" 0;
+  }
+  /* animations for the variation sections */
+}
+.width{
+  animation: widthvariations 5s infinite;
+}
+@keyframes widthvariations {
+  0%, 100%{
+      font-variation-settings: "wdth" 100, "wght" 100, "ital" 0;
+  }
+  50%{font-variation-settings: "wdth" 125, "wght" 900, "ital" 0;
+  }
+  /* animations for the variation sections */
+}
+
+.italic {
+  animation: italicvariations 5s infinite;
+}
+@keyframes italicvariations {
+  0%, 100%{
+      font-variation-settings: "wdth" 0, "wght" 0, "ital" 900;
+  }
+  50%{font-variation-settings: "wdth" 0, "wght" 0, "ital" 900;
+  }
+
+  h6{
+    font-size: 50px;
+    color: #5A8D2C;
+    margin: 15px
+  }
+  /* animations for the variation sections */
 }
 /* variable font that changes on hover */
 .variable-font{
@@ -154,7 +198,7 @@ h5{
     place-content: center;
     margin: 0;
     text-align: center;
-    font-variation-settings: "wght" 40, "wdth" 0, "XXXX" 1;
+    font-variation-settings: "wght" 40, "wdth" 0, "ital" 1;
     transition: 
         font-weight 500ms,
         font-variation-settings 3s;
@@ -169,7 +213,7 @@ h5{
     place-content: center;
     margin: 0;
     text-align: center;
-    font-variation-settings: "wght" 40, "wdth" 0, "XXXX" 1;
+    font-variation-settings: "wght" 40, "wdth" 0, "ital" 1;
     transition: 
         font-weight 500ms,
         font-variation-settings 3s;
@@ -183,7 +227,7 @@ h5{
     place-content: center;
     margin: 0;
     text-align: center;
-    font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
+    font-variation-settings: "wght" 120, "wdth" 0, "slnt" 100;
 }
 
 .header {
@@ -200,6 +244,10 @@ h5{
 
 .page-nav {
     margin-left: auto; /* Pushes the nav to the right */
+}
+
+body {
+  cursor: url(assets/correctscoop.png), auto; /* Ensure the path is correct */
 }
 
 .page-nav ul {
@@ -225,4 +273,8 @@ h5{
   animation: var1 5s infinite;
 }
   
+#history-paragraph {
+  font-family: 'ariel', sans-serif;
+  font-size: 1rem; /* Adjust font size as needed */
+}
 
