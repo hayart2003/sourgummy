@@ -3,18 +3,14 @@ body{
   cursor: url(assets/newestscoop.png), auto; /* Ensure the path is correct */
 }
 
-h3 {
-    margin-top: .5; /* Remove top margin */
-    margin-bottom: 0.5rem; /* Adjust bottom margin as needed */
-    padding: 0; /* Remove padding */
-    animation: weightvariations 3s infinite;
-  }
-  
-  h2 h4 h5 {
+
+  h2 h3 h4 h5 {
     margin-top: 0; /* Remove top margin */
-    margin-bottom: 0.5rem; /* Adjust bottom margin as needed */
+    margin-bottom: 0.6rem; /* Adjust bottom margin as needed */
     padding: 0; /* Remove padding */
   }
+
+  
   
   .color1 {
     color: #2797B2;
@@ -91,7 +87,7 @@ grid-area: h;
 
 #variations{
 grid-area: v;
-margin-right: 20px;
+margin-right: 30px;
 }
 
 #alphabet {
