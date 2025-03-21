@@ -24,29 +24,9 @@ header {
   margin: 0;
 }
 /* where to change the background color of the pop-up nav bar*/
-nav {
-    position: absolute;
-    text-align: left;
-    padding-top:10px;
-    top: 100%;
-    left: 0;
-    background: #FFFEEF(161, 64, 64);
-    width: 100%;
-    transform: scale(1,0);
-    transform-origin: top;
-    transition: transform 400ms ease-in-out;
-}
 
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
 
-nav li {
-    margin-bottom: 1em;
-    margin-left: 1em;
-}
+
 /* where to change the color of the font in the nav bar */
 nav a {
     color: #2797B2(163, 144, 144);
@@ -55,6 +35,7 @@ nav a {
     text-transform: uppercase;
     opacity: 0;
     transition: opacity 100ms ease-in-out;
+    padding-top: 0.2rem;
 }
 /* where to change the font color of the nav bar pop-up */
 nav a:hover {

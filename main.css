@@ -4,11 +4,12 @@ body{
 }
 
 
-h2, h3, h4, h5 {
-  margin-top: 0; /* Remove top margin */
-  margin-bottom: 1.5rem; /* Adjust bottom margin as needed */
-  padding: 0; /* Remove padding */
-}
+  h2 h3 h4 h5 {
+    margin-top: 0; /* Remove top margin */
+    margin-bottom: 0.4rem; /* Adjust bottom margin as needed */
+    padding: 0; /* Remove padding */
+  }
+
   
   
   .color1 {
@@ -92,7 +93,7 @@ margin-right: 30px;
 #alphabet {
   font-family: sourgummy;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1.5em;
   grid-area: a;
   margin: 0;
   padding: 0;
@@ -273,3 +274,59 @@ body {
   font-size: 1rem; /* Adjust font size as needed */
 }
 
+/* Resetting default button styles */
+a {display: inline-block;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 20px 20px;
+  margin:60px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: 'sourgummy', sans-serif;
+}
+
+/* .Download {
+  
+  font-size: 30px;
+  font-family: 'sourgummy', sans-serif;
+  background-color: #FFFEEF;
+  color: #5A8D2C;
+  border: 10px solid #2797B2; */
+}
+
+.download-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+
+a.Download {
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 20px 20px;
+  margin: 60px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-family: 'sourgummy', sans-serif;
+  background-color: #FFFEEF;
+  color: #5A8D2C;
+  border: 10px solid #2797B2;
+}
+
+.Download:hover {
+  background-color: #eec38f;
+}
+
+.footer-logo {
+  position: fixed;
+  bottom: -70px;
+  right: -10px;
+}
