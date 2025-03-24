@@ -297,21 +297,23 @@ a {display: inline-block;
 
 .download-container {
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
   margin-top: 20px; /* Adjust the margin as needed */
-  width: 100%; /* Ensure the container takes the full width */
 }
+
 
 a.download {
   display: inline-block;
   text-decoration: none;
   border: none;
   outline: none;
+  align-items: center;
   cursor: pointer;
   padding: 20px 20px;
-  margin: 0; /* Remove margin to avoid offset */
-  border-radius: 30px;
+  margin: 0 auto;
+  border-radius: 10px;
   font-size: 30px;
   font-family: 'sourgummy', sans-serif;
   background-color: #FFFEEF;
@@ -319,8 +321,9 @@ a.download {
   border: 10px solid #2797B2;
 }
 
-a.download:hover {
+.Download:hover {
   background-color: #eec38f;
+  text-align: center;
 }
 
 /* CSS for the footer */
