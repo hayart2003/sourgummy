@@ -293,26 +293,25 @@ a {display: inline-block;
   background-color: #FFFEEF;
   color: #5A8D2C;
   border: 10px solid #2797B2; */
-}
+
 
 .download-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: center;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
   margin-top: 20px; /* Adjust the margin as needed */
+  width: 100%; /* Ensure the container takes the full width */
 }
 
-
-a.Download {
+a.download {
   display: inline-block;
   text-decoration: none;
   border: none;
   outline: none;
   cursor: pointer;
   padding: 20px 20px;
-  margin: 60px;
-  border-radius: 10px;
+  margin: 0; /* Remove margin to avoid offset */
+  border-radius: 30px;
   font-size: 30px;
   font-family: 'sourgummy', sans-serif;
   background-color: #FFFEEF;
@@ -320,7 +319,17 @@ a.Download {
   border: 10px solid #2797B2;
 }
 
-.Download:hover {
+a.download:hover {
   background-color: #eec38f;
 }
 
+/* CSS for the footer */
+footer {
+  background-image: url("assets/correctwormfooter.svg");  
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+    text-align: left;
+    font-family: 'sourgummy', sans-serif;
+  }
