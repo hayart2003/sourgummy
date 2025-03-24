@@ -67,12 +67,16 @@ body{
     width: min(100% - 3rem, 90ch);
     margin-inline: auto;
 }
+
+.hero {
+  margin-top:300px;
+}
 /* how the page wrapper appears on desktop */
 
 @media only screen and (min-width:800px){
 .page-wrapper{
 display: grid;
-/* grid-gap: 25px; */
+grid-gap: 25px;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas: 
@@ -259,11 +263,6 @@ body {
     color: inherit;
 }
 
-.footer-logo {
-  position: fixed;
-  bottom: -70px;
-  right: -10px;
-}
 
 .var1 {
   animation: var1 5s infinite;
@@ -325,8 +324,3 @@ a.Download {
   background-color: #eec38f;
 }
 
-.footer-logo {
-  position: fixed;
-  bottom: -70px;
-  right: -10px;
-}
