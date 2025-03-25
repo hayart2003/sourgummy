@@ -299,6 +299,7 @@ h5{
 .weight{
   animation: weightvariations 5s infinite;
   font-size: 30px;
+  color: #5A8D2C;
 }
 @keyframes weightvariations {
   0%, 100%{
@@ -311,6 +312,7 @@ h5{
 .width{
   animation: widthvariations 5s infinite;
   font-size: 30px;
+  color: #2797B2;
 }
 @keyframes widthvariations {
   0%, 100%{
@@ -324,6 +326,7 @@ h5{
 .italic {
   animation: italicvariations 5s infinite;
   font-size: 30px;
+  color: #C4771C;
 }
 @keyframes italicvariations {
   0%, 100%{
@@ -481,7 +484,7 @@ a.download {
 /* CSS for the footer */
 footer {
   text-align: center;
-  background-image: url("assets/correctwormfooter.svg");  
+  background-image: url("assets/correctwormfooter.svg ");  
   height: 200px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -493,4 +496,12 @@ footer {
 .footer-content {
   padding: 20px;
   font-size: 22px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
 }
