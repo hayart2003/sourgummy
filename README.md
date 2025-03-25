@@ -1,4 +1,4 @@
-# type-single-page
+# README
  
 My website was created for the font Sour Gummy by Stefie Justprince to attract viewers interested in learning about a particular font, the history of the font, variations, and the full alphabet set. Not only can viewers know about this particular font, but the user can download the font by clicking a button displayed on the site. This font stood out to me because it was playful which I gravitate towards being an art education major and the font's name. 
 

@@ -199,6 +199,13 @@ body{
     font-style: normal;
     font-weight: normal;
   }
+
+  @font-face {
+    src: url("fonts/SourGummy-Italic-VariableFont_wdth\,wght.woff2") format("woff2");
+    font-family:'sourgummy-italic';
+    font-style: italic;
+    font-weight: italic;
+  }
   
   body {
     background-color: #FFFEEF;
@@ -324,13 +331,21 @@ h5{
 }
 
 
-.italic {
+.sourgummy-italic {
   animation: italicvariations 5s infinite;
   font-size: 30px;
   color: #C4771C;
-  font-variation-settings: "ital" 0; /* Ensure initial state is not italic */
+  font-variation-settings: "ital" 1; /* Ensure initial state is not italic */
 }
 
+@keyframes italicvariations {
+  0%, 100% {
+    font-variation-settings: "ital" 1; /* Start and end with normal */
+  }
+  50% {
+    font-variation-settings: "ital" 1; /* Middle of the animation is italic */
+  }
+}
   h6{
     font-size: 50px;
     color: #5A8D2C;
