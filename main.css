@@ -323,17 +323,13 @@ h5{
   /* animations for the variation sections */
 }
 
+
 .italic {
   animation: italicvariations 5s infinite;
   font-size: 30px;
   color: #C4771C;
+  font-variation-settings: "ital" 0; /* Ensure initial state is not italic */
 }
-@keyframes italicvariations {
-  0%, 100%{
-      font-variation-settings: "wdth" 0, "wght" 0, "ital" 900;
-  }
-  50%{font-variation-settings: "wdth" 0, "wght" 0, "ital" 900;
-  }
 
   h6{
     font-size: 50px;
@@ -341,7 +337,7 @@ h5{
     margin: 15px
   }
   /* animations for the variation sections */
-}
+
 /* variable font that changes on hover */
 .variable-font{
     font-weight:1 ;
@@ -363,9 +359,9 @@ h5{
     height: 100vh;
     font-size: 10em;
     display: grid;
-    place-content: center;
+    place-content: right;
     margin: 0;
-    text-align: center;
+    text-align: right;
     font-variation-settings: "wght" 40, "wdth" 0, "ital" 1;
     transition: 
         font-weight 500ms,
@@ -505,3 +501,7 @@ footer {
     scroll-behavior: auto !important;
   }
 }
+/* Notes */
+alt tags
+just dont know which folder to put font in again 
+padding of the nav bar 

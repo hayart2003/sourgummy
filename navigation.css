@@ -14,7 +14,7 @@ header {
   /* where to set the color of the nav bar */
     background: #FFFEEF(170, 51, 51);
     text-align: center;
-    top:0px;
+    top: -25px;
     position: fixed;
     z-index: 999;
     width: 100%;
