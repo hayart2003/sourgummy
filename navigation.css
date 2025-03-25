@@ -17,8 +17,10 @@ header {
     top:0px;
     position: fixed;
     z-index: 999;
-    width: 100%
-}
+    width: 100%;
+    padding: 5px 0; /* Adjust padding to reduce height */
+  }
+
 
 .logo {
   margin: 0;
@@ -31,15 +33,15 @@ header {
 nav a {
     color: #2797B2(163, 144, 144);
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     opacity: 0;
     transition: opacity 100ms ease-in-out;
-    padding-top: 0.2rem;
+    padding-top: 0%;
 }
 /* where to change the font color of the nav bar pop-up */
 nav a:hover {
-    color: #5A8D2C(113, 210, 81, 0.66);
+    color: #5A8D2C (113, 210, 81, 0.66);
 }
 
 .nav-checkbox:checked ~ nav {

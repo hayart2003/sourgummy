@@ -1,13 +1,17 @@
 
+
+
+
 body{
-  cursor: url(assets/newestscoop.png), auto; /* Ensure the path is correct */
+  cursor: url("assets/scoopz.svg"), auto; /* Ensure the path is correct */
 }
 
 
   h2 h3 h4 h5 {
     margin-top: 0; /* Remove top margin */
-    margin-bottom: 0.4rem; /* Adjust bottom margin as needed */
+    margin-bottom: 0.12rem; /* Adjust bottom margin as needed */
     padding: 0; /* Remove padding */
+    font-size: 30px; /* Adjust font size as needed */
   }
 
   
@@ -50,6 +54,144 @@ body{
   .color9 {
     color: #C5414E;
   }
+
+  .color10 {
+    color: #C4771C;
+  }
+
+  .color11 {
+    color: #5A8D2C;
+  }
+
+  .color12 {
+    color: #D64379;
+  }
+
+  .color13 {
+    color: #2797B2;
+  }
+
+  .color14 {
+    color: #C4771C;
+  }
+
+  .color15 {
+    color: #5A8D2C;
+  }
+  .color16 {
+    color: #D64379;
+  }
+  .color17 {
+    color: #2797B2;;
+  }
+  .color18 {
+    color: #C4771C;
+  }
+  .color19 {
+    color: #5A8D2C;
+  }
+  .color20 {
+    color: #D64379;
+  }
+  .color21 {
+    color: #2797B2;;
+  }
+  .color22 {
+    color: #C4771C;
+  }
+  .color23 {
+    color: #5A8D2C;
+  }
+  .color24 {
+    color: #D64379;
+  }
+  .color25 {
+    color: #2797B2;;
+  }
+  .color26 {
+    color: #C4771C;
+  }
+  .color27 {
+    color: #5A8D2C;
+  }
+  .color28 {
+    color: #D64379;
+  }
+  .color29 {
+    color: #2797B2;;
+  }
+  .color30 {
+    color: #C4771C;
+  }
+  .color31 {
+    color: #5A8D2C;
+  }
+  .color32 {
+    color: #D64379;
+  }
+  .color33 {
+    color: #2797B2;;
+  }
+  .color34 {
+    color: #C4771C;
+  }
+  .color35 {
+    color: #5A8D2C;
+  }
+  .color36 {
+    color: #D64379;
+  }
+  .color37 {
+    color: #2797B2;;
+  }
+  .color38 {
+    color: #C4771C;
+  }
+  .color39 {
+    color: #5A8D2C;
+  }
+  .color40 {
+    color: #D64379;
+  }
+  .color41 {
+    color: #2797B2;;
+  }
+  .color42 {
+    color: #C4771C;
+  }
+  .color43 {
+    color: #5A8D2C;
+  }
+  .color44 {
+    color: #D64379;
+  }
+  .color45 {
+    color: #2797B2;;
+  }
+  .color46 {
+    color: #C4771C;
+  }
+  .color47 {
+    color: #5A8D2C;
+  }
+  .color48 {
+    color: #D64379;
+  }
+  .color49 {
+    color: #2797B2;;
+  }
+  .color50 {
+    color: #C4771C;
+  }
+  .color51 {
+    color: #5A8D2C;
+  }
+  .color52 {
+    color: #D64379;
+  }
+  .color53 {
+    color: #2797B2;;
+  }
   
   @font-face {
     src: url("fonts/SourGummy-VariableFont_wdth,wght.woff2") format("woff2");
@@ -69,15 +211,15 @@ body{
 }
 
 .hero {
-  margin-top:300px;
+  margin-top:185px;
 }
 /* how the page wrapper appears on desktop */
 
-@media only screen and (min-width:800px){
+@media only screen and (min-width:200px){
 .page-wrapper{
 display: grid;
-grid-gap: 25px;
-grid-template-columns: 1fr 1fr;
+grid-gap: 30px;
+grid-template-columns: 4fr 4fr;
 grid-template-rows: auto;
 grid-template-areas: 
     "h v"
@@ -86,18 +228,23 @@ grid-template-areas:
 
 #history {
 grid-area: h;
-
+background-image: url("assets/fianlworm.svg");  
+padding-top: 0.15px;
+background-repeat: no-repeat;
+font-size: 30px;
 }
 
-#variations{
-grid-area: v;
-margin-right: 30px;
+#variations {
+  grid-area: v;
+  justify-self: end; /* Align the content to the right within its grid cell */
+  margin-right: 50px;
+  font-size: 22px;
 }
 
 #alphabet {
   font-family: sourgummy;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 30px;
   grid-area: a;
   margin: 0;
   padding: 0;
@@ -151,6 +298,7 @@ h5{
 
 .weight{
   animation: weightvariations 5s infinite;
+  font-size: 30px;
 }
 @keyframes weightvariations {
   0%, 100%{
@@ -162,6 +310,7 @@ h5{
 }
 .width{
   animation: widthvariations 5s infinite;
+  font-size: 30px;
 }
 @keyframes widthvariations {
   0%, 100%{
@@ -174,6 +323,7 @@ h5{
 
 .italic {
   animation: italicvariations 5s infinite;
+  font-size: 30px;
 }
 @keyframes italicvariations {
   0%, 100%{
@@ -240,6 +390,8 @@ h5{
 
 .logo {
     margin: 0;
+    font-size: 40px; /* Adjust font size as needed */
+
 }
 
 .page-nav {
@@ -270,7 +422,7 @@ body {
   
 #history-paragraph {
   font-family: 'ariel', sans-serif;
-  font-size: 1rem; /* Adjust font size as needed */
+  font-size: rem; /* Adjust font size as needed */
 }
 
 /* Resetting default button styles */
@@ -328,11 +480,17 @@ a.download {
 
 /* CSS for the footer */
 footer {
+  text-align: center;
   background-image: url("assets/correctwormfooter.svg");  
-  height: 300px;
+  height: 200px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
     text-align: left;
     font-family: 'sourgummy', sans-serif;
-  }
+    }
+
+.footer-content {
+  padding: 20px;
+  font-size: 22px;
+}
