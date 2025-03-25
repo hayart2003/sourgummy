@@ -202,7 +202,7 @@ body{
 
   @font-face {
     src: url("fonts/SourGummy-Italic-VariableFont_wdth\,wght.woff2") format("woff2");
-    font-family:'sourgummy-italic';
+    font-family:'sourgummy italic';
     font-style: italic;
     font-weight: italic;
   }
@@ -213,7 +213,7 @@ body{
   }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
-    width: min(100% - 3rem, 90ch);
+    width: min(100% - 3rem, 120ch);
     margin-inline: auto;
 }
 
@@ -333,8 +333,9 @@ h5{
 }
 
 
-.sourgummy-italic {
+.sourgummyitalic {
   animation: italicvariations 5s infinite;
+  font-family: sourgummy italic;
   font-size: 50px;
   color: #C4771C;
   font-variation-settings: "ital" 1; /* Ensure initial state is not italic */
@@ -421,7 +422,7 @@ body {
 .page-nav ul {
     list-style: none;
     display: flex;
-    gap: 1rem;
+    gap: .5rem;
     margin: 0;
     padding: 0;
 }
