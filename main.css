@@ -8,10 +8,10 @@ body{
 
 
   h2 h3 h4 h5 {
-    margin-top: 0; /* Remove top margin */
-    margin-bottom: 0.12rem; /* Adjust bottom margin as needed */
+    margin-top: -15; /* Remove top margin */
+    margin-bottom: -20rem; /* Adjust bottom margin as needed */
     padding: 0; /* Remove padding */
-    font-size: 30px; /* Adjust font size as needed */
+    font-size: 50px; /* Adjust font size as needed */
   }
 
   
@@ -68,7 +68,7 @@ body{
   }
 
   .color13 {
-    color: #2797B2;
+    color: #C5414E;
   }
 
   .color14 {
@@ -82,7 +82,7 @@ body{
     color: #D64379;
   }
   .color17 {
-    color: #2797B2;;
+    color: #C5414E;
   }
   .color18 {
     color: #C4771C;
@@ -94,7 +94,7 @@ body{
     color: #D64379;
   }
   .color21 {
-    color: #2797B2;;
+    color: #C5414E;
   }
   .color22 {
     color: #C4771C;
@@ -106,7 +106,7 @@ body{
     color: #D64379;
   }
   .color25 {
-    color: #2797B2;;
+    color: #C5414E;
   }
   .color26 {
     color: #C4771C;
@@ -118,7 +118,7 @@ body{
     color: #D64379;
   }
   .color29 {
-    color: #2797B2;;
+    color: #C5414E;
   }
   .color30 {
     color: #C4771C;
@@ -130,7 +130,7 @@ body{
     color: #D64379;
   }
   .color33 {
-    color: #2797B2;;
+    color: #C5414E;
   }
   .color34 {
     color: #C4771C;
@@ -245,19 +245,21 @@ font-size: 30px;
   grid-area: v;
   justify-self: end; /* Align the content to the right within its grid cell */
   margin-right: 50px;
-  font-size: 22px;
+  font-size: 50px;
 }
 
 #alphabet {
   font-family: sourgummy;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 40px;
   grid-area: a;
   margin: 0;
   padding: 0;
   text-align: center-left;
   margin-right: 15px;
   color: #5A8D2C;
+  background-image: url("assets/fianlworm.svg");  
+  background-repeat: no-repeat;
 }
 
 }
@@ -305,7 +307,7 @@ h5{
 
 .weight{
   animation: weightvariations 5s infinite;
-  font-size: 30px;
+  font-size: 50px;
   color: #5A8D2C;
 }
 @keyframes weightvariations {
@@ -318,7 +320,7 @@ h5{
 }
 .width{
   animation: widthvariations 5s infinite;
-  font-size: 30px;
+  font-size: 50px;
   color: #2797B2;
 }
 @keyframes widthvariations {
@@ -333,7 +335,7 @@ h5{
 
 .sourgummy-italic {
   animation: italicvariations 5s infinite;
-  font-size: 30px;
+  font-size: 50px;
   color: #C4771C;
   font-variation-settings: "ital" 1; /* Ensure initial state is not italic */
 }
@@ -477,7 +479,7 @@ a.download {
   outline: none;
   align-items: center;
   cursor: pointer;
-  padding: 20px 20px;
+  padding: 10px 10px;
   margin: 0 auto;
   border-radius: 10px;
   font-size: 30px;
@@ -496,7 +498,7 @@ a.download {
 footer {
   text-align: center;
   background-image: url("assets/correctwormfooter.svg ");  
-  height: 200px;
+  height: px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -517,6 +519,6 @@ footer {
   }
 }
 /* Notes */
-alt tags
+/* alt tags
 just dont know which folder to put font in again 
-padding of the nav bar 
+padding of the nav bar  */
